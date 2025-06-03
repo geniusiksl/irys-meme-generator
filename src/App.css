@@ -1,0 +1,333 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.upload-zone {
+  border: 3px dashed #6200ea;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: #f9f5ff;
+}
+
+.upload-zone:hover {
+  background: #f0e5ff;
+}
+
+.meme-preview {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.nft-input {
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.nft-input:focus {
+  border-color: #6200ea;
+  outline: none;
+}
+
+button {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.create-btn {
+  background: #6200ea;
+  color: white;
+}
+
+.create-btn:hover:not(:disabled) {
+  background: #4a00c0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.create-btn:disabled {
+  background: #b39ddb;
+  cursor: not-allowed;
+}
+
+.download-btn {
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.download-btn:hover {
+  background: #3d8b40;
+}
+
+.meme-container {
+  position: relative;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.meme-image {
+  width: 100%;
+  display: block;
+}
+
+.meme-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000;
+  padding: 15px;
+  text-align: center;
+}
+
+.nft-success {
+  background: #e8f5e9;
+  border-left: 5px solid #4caf50;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.nft-details {
+  margin-top: 10px;
+  color: #333;
+}
+
+.qr-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  padding: 10px;
+  background: white;
+}
+
+.qr-actions {
+  margin-top: 20px;
+}
+
+.test-notice {
+  margin-top: 40px;
+  padding: 15px;
+  background: #fff3e0;
+  color: #e65100;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.loading {
+  position: relative;
+  color: transparent;
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255,255,255,0.3);
+  border-top: 3px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+.qr-result {
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.qr-image {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eee;
+  margin: 15px auto;
+}
+
+.nft-details {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.upload-zone {
+  border: 3px dashed #6200ea;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+  background: #f9f5ff;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+}
+
+.controls {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.controls input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px 24px;
+  background: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #b39ddb;
+  cursor: not-allowed;
+}
+
+.meme-container {
+  position: relative;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.meme-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: #d32f2f;
+  background: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.result-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+  margin: 15px auto;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.demo-notice {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff3e0;
+  color: #e65100;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.loading {
+  position: relative;
+  color: transparent;
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255,255,255,0.3);
+  border-top: 3px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
