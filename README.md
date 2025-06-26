@@ -6,7 +6,7 @@ Meme/NFT generator with the ability to add stickers and save to the blockchain v
 - Upload images
 - Add random stickers
 - Text over image
-- Save to Irys (Arweave)
+- Save to Irys
 - Generate QR code for transaction
 
 ## Installation
